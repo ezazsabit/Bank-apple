@@ -109,7 +109,7 @@ document.getElementById('Save-Button').addEventListener('click',function(){
     const balance=salary - expensesCount('foodMoney','rentMoney','clothesMoney');
     const subTotal=balance-(parseFloat(document.getElementById('incomeMoney').value)*Persent).toFixed(2);
     if(subTotal>0)
-    Remain.innerText=subTotal;
+    Remain.innerText=subTotal.toFixed(2);
     else
     {
     Remain.innerText='Error';
