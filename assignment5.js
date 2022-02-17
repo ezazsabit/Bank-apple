@@ -111,6 +111,9 @@ document.getElementById('Save-Button').addEventListener('click',function(){
     if(subTotal>0)
     Remain.innerText=subTotal;
     else
+    {
     Remain.innerText='Error';
+    document.getElementById('savingAmounts').innerText='Error';
+    }
 })
 
