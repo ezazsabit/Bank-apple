@@ -75,7 +75,7 @@ function negativeErrorCheck(amount)
     }
 } */
 
-
+// Event handle on calculate button-
 document.getElementById('calculateButton').addEventListener('click',function(){
    
     // total expences show-
@@ -98,7 +98,7 @@ document.getElementById('calculateButton').addEventListener('click',function(){
    
 
 })
-
+// Event handle on save button-
 document.getElementById('Save-Button').addEventListener('click',function(){
     // saving amount fixed-
     const Persent=parseFloat(document.getElementById('percentSave').value)/100;
